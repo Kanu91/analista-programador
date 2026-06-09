@@ -1,0 +1,27 @@
+ Evaluación Sumativa 1 Semana 3 - Desarrollo Orientado a Objetos I
+👤 Autor del proyecto
+Nombre completo: Claudio Azócar
+Carrera: Analista Programador
+Nombre del Proyecto: Agencia Turismo
+📘 Descripción general del proyecto
+Este proyecto corresponde a la evaluación sumativa de la semana 3 de la asignatura Desarrollo Orientado a Objetos I. Se trata de un sistema orientado a objetos desarrollado en Java, cuyo objetivo es modelar y gestionar la información de clientes y guías turísticos de la empresa Llanquihue Tour, aplicando los principios de encapsulamiento, composición y herencia.
+
+El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
+
+🧱 Estructura general del proyecto
+    📁 src/
+    ├── app/               # Paquete principal clase main
+    ├── model/             # Paquete de dominio con las clases del sistema
+        ├── persona/       # Clase base que organiza la información general de las personas
+        ├── direccion/     # Clase de composición que organiza la información de las direcciones
+        ├── cliente/       # Clase principal que organiza la información de los clientes
+        ├── guiaturistico/ #Clase heredada que organiza la información de los guías turísticos
+    └── README.md          # Documentación de proyecto
+Abrir el proyecto en IntelliJ IDEA.
+Esperar a que IntelliJ cargue las dependencias del proyecto.
+Navegar hasta la clase Main ubicada en el paquete app.
+Ejecutar el método main() presionando el botón Run (▶).
+Verificar los resultados en la consola de ejecución.
+Repositorio GitHub: https://github.com/Kanu91/analista-programador | Fecha de entrega: 08/06/2026
+
+© Duoc UC | Escuela de Informática y Telecomunicaciones | Evaluación Sumativa 1 Semana 3
